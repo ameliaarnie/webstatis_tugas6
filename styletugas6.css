@@ -1,0 +1,119 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: rgb(243, 214, 214);
+    color:rgb(83, 86, 86);
+}
+
+.container {
+    width: 800px ;
+    margin: auto ;
+    background-color:rgb(208, 179, 179);
+
+}
+
+.header {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+ 
+.container .header ul{
+    margin-left: -40px;
+}
+
+.header a {
+    text-decoration: none;
+    color:rgb(97, 18, 18);
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color:rgb(137, 149, 162);
+    color:ivory;
+}
+
+
+.hero {
+    height: 400px;
+    background-image: url(https://www.trivindo.com/data/images/2017/01/candi-borobudur_800x480.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    outline-style: solid;
+    outline-color:beige;
+    outline-width: 4px;
+}
+
+.content {
+    padding: 15px;
+  }
+  
+  .content .penulis {
+    margin-top: -15px;
+    font-size: 16px;
+  }
+  
+  .content .penulis a {
+    text-decoration: none;
+    color :rgb(83, 86, 86);
+  }
+  
+  .content p {
+    text-align:justify;
+  }
+
+.tabelheading h2 {
+    padding: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+.tabeljenis {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 200px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-size: small;
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 2px double rgb(63, 61, 61);
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color:rgb(208, 179, 179);
+    color:rgb(83, 86, 86);
+}
+td {
+    text-align: justify;
+    background-color:rgb(238, 218, 229) ;
+}
+
+.footer {
+    background-color: pink;
+    text-align: center;
+}
+
+.footer p {
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 3px;
+
+}
+
+.footer .besar {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
